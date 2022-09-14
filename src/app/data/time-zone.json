@@ -1,0 +1,22 @@
+[
+  {
+    "id" : 1,
+    "name" : "Tel Aviv",
+    "offset": 0
+  },
+  {
+    "id" : 2,
+    "name" : "New York",
+    "offset": -7
+  },
+  {
+    "id" : 3,
+    "name" : "London",
+    "offset": -2
+  },
+  {
+    "id" : 4,
+    "name" : "Thailand",
+    "offset": 4
+  }
+]

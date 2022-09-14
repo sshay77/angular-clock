@@ -1,0 +1,24 @@
+.central-clock {
+  color: #1df52f;
+}
+select {
+  background-color: #4d4b63;
+  color: #1df52f;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #1df52f;
+}
+
+.flex-item {
+  padding: 10px;
+  flex: 45%;
+}
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item {
+    flex: 100%;
+  }
+}

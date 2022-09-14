@@ -1,0 +1,17 @@
+<div class="central-clock">
+  Select Number of Clocks to display:
+  <select (change)="onSelectedCount($event)">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4" selected>4</option>
+  </select>
+
+  <div class="flex-container">
+    <div *ngFor="let clock of clocksToDisplay" class="flex-item">
+      <div>{{clock.name}}</div>
+      <app-analog-clock [time]="time" [offset]="clock.offset"></app-analog-clock>
+      <app-digital-clock [time]="time" [offset]="clock.offset"></app-digital-clock>
+    </div>
+  </div>
+</div>
